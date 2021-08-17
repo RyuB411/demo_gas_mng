@@ -1,3 +1,3 @@
 function myFunction() {
-  console.log('変更確認テスト')
+  console.log('変更確認テスト2')
 }
