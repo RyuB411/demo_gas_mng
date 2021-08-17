@@ -1,3 +1,3 @@
 function myFunction() {
-  console.log('自動デプロイテスト')
+  console.log('変更確認テスト')
 }
