@@ -15,9 +15,7 @@ GASのバージョン管理を行うサンプルリポジトリ
 ```bash
 C:\Users\ryub\product>git clone git@github.com:RyuB411/demo_gas_mng.git
 Cloning into 'demo_gas_mng'...
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+~中略~
 Receiving objects: 100% (3/3), done.
 
 C:\Users\ryub\product>cd demo_gas_mng
@@ -66,10 +64,7 @@ C:\Users\ryub\product\demo_gas_mng>npm --version
 6.14.12
 
 C:\Users\ryub\product\demo_gas_mng>npm i @google/clasp -g
-C:\Users\ryub\AppData\Roaming\npm\clasp -> C:\Users\ryub\AppData\Roaming\npm\node_modules\@google\clasp\build\src\index.js
-npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules\@google\clasp\node_modules\chokidar\node_modules\fsevents):
-npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
-
+~中略~
 + @google/clasp@2.4.1
 added 1 package from 1 contributor and updated 9 packages in 11.395s
 
@@ -92,7 +87,6 @@ C:\Users\ryub\product\demo_gas_mng>
 C:\Users\ryub\product\gas_control_demo>clasp login
 Logging in globally…
 🔑 Authorize clasp by visiting this url:
-https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=
 ~中略~
 ```
 + clasp loginコマンド実行後、ブラウザが開き
@@ -127,13 +121,6 @@ Warning: files in subfolder are not accounted for unless you set a 'C:\Users\ryu
 Cloned 2 files.
 └─ C:\Users\ryub\product\demo_gas_mng/appsscript.json
 └─ C:\Users\ryub\product\demo_gas_mng/コード.js
-Not ignored files:
-└─ C:/Users/ryub/product/demo_gas_mng/appsscript.json
-└─ C:/Users/ryub/product/demo_gas_mng/コード.js
-
-Ignored files:
-└─ C:/Users/ryub/product/demo_gas_mng/.clasp.json
-└─ C:/Users/ryub/product/demo_gas_mng/.git/config
 ~中略~
 
 C:\Users\ryub\product\demo_gas_mng>
