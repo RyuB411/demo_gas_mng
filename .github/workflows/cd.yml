@@ -26,3 +26,4 @@ jobs:
       - name: Deploy
         run: |
           clasp push
+          clasp deploy
